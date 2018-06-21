@@ -2007,6 +2007,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -2051,9 +2055,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _compat2 = _interopRequireDefault(_compat);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _List = __webpack_require__(46);
 
@@ -2114,39 +2118,39 @@ return /******/ (function(modules) { // webpackBootstrap
 	var propTypes = _extends({}, _Popup2.default.propTypes, {
 
 	  //-- controlled props -----------
-	  value: _react2.default.PropTypes.any,
-	  onChange: _react2.default.PropTypes.func,
-	  open: _react2.default.PropTypes.bool,
-	  onToggle: _react2.default.PropTypes.func,
+	  value: _propTypes2.default.any,
+	  onChange: _propTypes2.default.func,
+	  open: _propTypes2.default.bool,
+	  onToggle: _propTypes2.default.func,
 	  //------------------------------------
 
-	  data: _react2.default.PropTypes.array,
-	  valueField: _react2.default.PropTypes.string,
-	  textField: _propTypes2.default.accessor,
+	  data: _propTypes2.default.array,
+	  valueField: _propTypes2.default.string,
+	  textField: _propTypes4.default.accessor,
 
-	  valueComponent: _propTypes2.default.elementType,
-	  itemComponent: _propTypes2.default.elementType,
-	  listComponent: _propTypes2.default.elementType,
+	  valueComponent: _propTypes4.default.elementType,
+	  itemComponent: _propTypes4.default.elementType,
+	  listComponent: _propTypes4.default.elementType,
 
-	  groupComponent: _propTypes2.default.elementType,
-	  groupBy: _propTypes2.default.accessor,
+	  groupComponent: _propTypes4.default.elementType,
+	  groupBy: _propTypes4.default.accessor,
 
-	  onSelect: _react2.default.PropTypes.func,
-	  searchTerm: _react2.default.PropTypes.string,
-	  onSearch: _react2.default.PropTypes.func,
-	  busy: _react2.default.PropTypes.bool,
-	  delay: _react2.default.PropTypes.number,
-	  dropUp: _react2.default.PropTypes.bool,
-	  duration: _react2.default.PropTypes.number, //popup
+	  onSelect: _propTypes2.default.func,
+	  searchTerm: _propTypes2.default.string,
+	  onSearch: _propTypes2.default.func,
+	  busy: _propTypes2.default.bool,
+	  delay: _propTypes2.default.number,
+	  dropUp: _propTypes2.default.bool,
+	  duration: _propTypes2.default.number, //popup
 
-	  disabled: _propTypes2.default.disabled.acceptsArray,
-	  readOnly: _propTypes2.default.readOnly.acceptsArray,
+	  disabled: _propTypes4.default.disabled.acceptsArray,
+	  readOnly: _propTypes4.default.readOnly.acceptsArray,
 
-	  messages: _react2.default.PropTypes.shape({
-	    open: _propTypes2.default.message,
-	    emptyList: _propTypes2.default.message,
-	    emptyFilter: _propTypes2.default.message,
-	    filterPlaceholder: _propTypes2.default.message
+	  messages: _propTypes2.default.shape({
+	    open: _propTypes4.default.message,
+	    emptyList: _propTypes4.default.message,
+	    emptyFilter: _propTypes4.default.message,
+	    filterPlaceholder: _propTypes4.default.message
 	  })
 	});
 
@@ -3185,6 +3189,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _OVERFLOW;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -3239,14 +3247,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	var OVERFLOW = (_OVERFLOW = {}, _OVERFLOW[CLOSED] = 'hidden', _OVERFLOW[CLOSING] = 'hidden', _OVERFLOW[OPENING] = 'hidden', _OVERFLOW);
 
 	var propTypes = {
-	  open: _react2.default.PropTypes.bool,
-	  dropUp: _react2.default.PropTypes.bool,
-	  duration: _react2.default.PropTypes.number,
+	  open: _propTypes2.default.bool,
+	  dropUp: _propTypes2.default.bool,
+	  duration: _propTypes2.default.number,
 
-	  onClosing: _react2.default.PropTypes.func,
-	  onOpening: _react2.default.PropTypes.func,
-	  onClose: _react2.default.PropTypes.func,
-	  onOpen: _react2.default.PropTypes.func
+	  onClosing: _propTypes2.default.func,
+	  onOpening: _propTypes2.default.func,
+	  onClose: _propTypes2.default.func,
+	  onOpen: _propTypes2.default.func
 	};
 
 	exports.default = _react2.default.createClass({
@@ -3568,6 +3576,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -3576,9 +3588,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ListOption2 = _interopRequireDefault(_ListOption);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _compat = __webpack_require__(44);
 
@@ -3611,23 +3623,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	  mixins: [__webpack_require__(50), __webpack_require__(51)()],
 
 	  propTypes: {
-	    data: _react2.default.PropTypes.array,
-	    onSelect: _react2.default.PropTypes.func,
-	    onMove: _react2.default.PropTypes.func,
+	    data: _propTypes2.default.array,
+	    onSelect: _propTypes2.default.func,
+	    onMove: _propTypes2.default.func,
 
-	    optionComponent: _propTypes2.default.elementType,
-	    itemComponent: _propTypes2.default.elementType,
+	    optionComponent: _propTypes4.default.elementType,
+	    itemComponent: _propTypes4.default.elementType,
 
-	    selected: _react2.default.PropTypes.any,
-	    focused: _react2.default.PropTypes.any,
-	    valueField: _propTypes2.default.accessor,
-	    textField: _propTypes2.default.accessor,
+	    selected: _propTypes2.default.any,
+	    focused: _propTypes2.default.any,
+	    valueField: _propTypes4.default.accessor,
+	    textField: _propTypes4.default.accessor,
 
-	    disabled: _propTypes2.default.disabled.acceptsArray,
-	    readOnly: _propTypes2.default.readOnly.acceptsArray,
+	    disabled: _propTypes4.default.disabled.acceptsArray,
+	    readOnly: _propTypes4.default.readOnly.acceptsArray,
 
-	    messages: _react2.default.PropTypes.shape({
-	      emptyList: _propTypes2.default.message
+	    messages: _propTypes2.default.shape({
+	      emptyList: _propTypes4.default.message
 	    })
 	  },
 
@@ -3746,6 +3758,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -3764,11 +3780,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  displayName: 'ListOption',
 
 	  propTypes: {
-	    dataItem: _react2.default.PropTypes.any,
-	    focused: _react2.default.PropTypes.bool,
-	    selected: _react2.default.PropTypes.bool,
-	    disabled: _react2.default.PropTypes.bool,
-	    readOnly: _react2.default.PropTypes.bool
+	    dataItem: _propTypes2.default.any,
+	    focused: _propTypes2.default.bool,
+	    selected: _propTypes2.default.bool,
+	    disabled: _propTypes2.default.bool,
+	    readOnly: _propTypes2.default.bool
 	  },
 
 	  render: function render() {
@@ -4094,6 +4110,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -4102,9 +4122,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ListOption2 = _interopRequireDefault(_ListOption);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _compat = __webpack_require__(44);
 
@@ -4141,27 +4161,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	  mixins: [__webpack_require__(50), __webpack_require__(51)()],
 
 	  propTypes: {
-	    data: _react2.default.PropTypes.array,
-	    onSelect: _react2.default.PropTypes.func,
-	    onMove: _react2.default.PropTypes.func,
+	    data: _propTypes2.default.array,
+	    onSelect: _propTypes2.default.func,
+	    onMove: _propTypes2.default.func,
 
-	    optionComponent: _propTypes2.default.elementType,
-	    itemComponent: _propTypes2.default.elementType,
-	    groupComponent: _propTypes2.default.elementType,
+	    optionComponent: _propTypes4.default.elementType,
+	    itemComponent: _propTypes4.default.elementType,
+	    groupComponent: _propTypes4.default.elementType,
 
-	    selected: _react2.default.PropTypes.any,
-	    focused: _react2.default.PropTypes.any,
+	    selected: _propTypes2.default.any,
+	    focused: _propTypes2.default.any,
 
-	    valueField: _propTypes2.default.accessor,
-	    textField: _propTypes2.default.accessor,
+	    valueField: _propTypes4.default.accessor,
+	    textField: _propTypes4.default.accessor,
 
-	    disabled: _propTypes2.default.disabled.acceptsArray,
-	    readOnly: _propTypes2.default.readOnly.acceptsArray,
+	    disabled: _propTypes4.default.disabled.acceptsArray,
+	    readOnly: _propTypes4.default.readOnly.acceptsArray,
 
-	    groupBy: _propTypes2.default.accessor,
+	    groupBy: _propTypes4.default.accessor,
 
-	    messages: _react2.default.PropTypes.shape({
-	      emptyList: _propTypes2.default.message
+	    messages: _propTypes2.default.shape({
+	      emptyList: _propTypes4.default.message
 	    })
 	  },
 
@@ -5302,6 +5322,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -5338,9 +5362,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _compat2 = _interopRequireDefault(_compat);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _List = __webpack_require__(46);
 
@@ -5402,44 +5426,44 @@ return /******/ (function(modules) { // webpackBootstrap
 	var propTypes = _extends({}, _Popup2.default.propTypes, {
 
 	  //-- controlled props -----------
-	  value: _react2.default.PropTypes.any,
-	  onChange: _react2.default.PropTypes.func,
-	  open: _react2.default.PropTypes.bool,
-	  onToggle: _react2.default.PropTypes.func,
+	  value: _propTypes2.default.any,
+	  onChange: _propTypes2.default.func,
+	  open: _propTypes2.default.bool,
+	  onToggle: _propTypes2.default.func,
 	  //------------------------------------
 
-	  itemComponent: _propTypes2.default.elementType,
-	  listComponent: _propTypes2.default.elementType,
+	  itemComponent: _propTypes4.default.elementType,
+	  listComponent: _propTypes4.default.elementType,
 
-	  groupComponent: _propTypes2.default.elementType,
-	  groupBy: _propTypes2.default.accessor,
+	  groupComponent: _propTypes4.default.elementType,
+	  groupBy: _propTypes4.default.accessor,
 
-	  data: _react2.default.PropTypes.array,
-	  valueField: _react2.default.PropTypes.string,
-	  textField: _propTypes2.default.accessor,
-	  name: _react2.default.PropTypes.string,
+	  data: _propTypes2.default.array,
+	  valueField: _propTypes2.default.string,
+	  textField: _propTypes4.default.accessor,
+	  name: _propTypes2.default.string,
 
-	  onSelect: _react2.default.PropTypes.func,
+	  onSelect: _propTypes2.default.func,
 
-	  autoFocus: _react2.default.PropTypes.bool,
-	  disabled: _propTypes2.default.disabled.acceptsArray,
-	  readOnly: _propTypes2.default.readOnly.acceptsArray,
+	  autoFocus: _propTypes2.default.bool,
+	  disabled: _propTypes4.default.disabled.acceptsArray,
+	  readOnly: _propTypes4.default.readOnly.acceptsArray,
 
-	  suggest: _propTypes2.default.filter,
-	  filter: _propTypes2.default.filter,
+	  suggest: _propTypes4.default.filter,
+	  filter: _propTypes4.default.filter,
 
-	  busy: _react2.default.PropTypes.bool,
+	  busy: _propTypes2.default.bool,
 
-	  dropUp: _react2.default.PropTypes.bool,
-	  duration: _react2.default.PropTypes.number,
-	  delay: _react2.default.PropTypes.number,
+	  dropUp: _propTypes2.default.bool,
+	  duration: _propTypes2.default.number,
+	  delay: _propTypes2.default.number,
 
-	  placeholder: _react2.default.PropTypes.string,
+	  placeholder: _propTypes2.default.string,
 
-	  messages: _react2.default.PropTypes.shape({
-	    open: _propTypes2.default.message,
-	    emptyList: _propTypes2.default.message,
-	    emptyFilter: _propTypes2.default.message
+	  messages: _propTypes2.default.shape({
+	    open: _propTypes4.default.message,
+	    emptyList: _propTypes4.default.message,
+	    emptyFilter: _propTypes4.default.message
 	  })
 	});
 
@@ -5808,6 +5832,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -5837,9 +5865,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  displayName: 'ComboboxInput',
 
 	  propTypes: {
-	    value: _react2.default.PropTypes.string,
-	    suggest: _react2.default.PropTypes.bool,
-	    onChange: _react2.default.PropTypes.func.isRequired
+	    value: _propTypes2.default.string,
+	    suggest: _propTypes2.default.bool,
+	    onChange: _propTypes2.default.func.isRequired
 	  },
 
 	  componentDidUpdate: function componentDidUpdate() {
@@ -5972,6 +6000,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _VIEW, _OPPOSITE_DIRECTION, _MULTIPLIER, _desc, _value2, _obj; //values, omit
 
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -6014,9 +6046,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _localizers = __webpack_require__(17);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _uncontrollable = __webpack_require__(55);
 
@@ -6113,52 +6145,52 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var propTypes = {
 
-	  disabled: _propTypes2.default.disabled,
-	  readOnly: _propTypes2.default.readOnly,
+	  disabled: _propTypes4.default.disabled,
+	  readOnly: _propTypes4.default.readOnly,
 
-	  onChange: _react2.default.PropTypes.func,
-	  value: _react2.default.PropTypes.instanceOf(Date),
+	  onChange: _propTypes2.default.func,
+	  value: _propTypes2.default.instanceOf(Date),
 
-	  min: _react2.default.PropTypes.instanceOf(Date),
-	  max: _react2.default.PropTypes.instanceOf(Date),
+	  min: _propTypes2.default.instanceOf(Date),
+	  max: _propTypes2.default.instanceOf(Date),
 
-	  currentDate: _react2.default.PropTypes.instanceOf(Date),
-	  onCurrentDateChange: _react2.default.PropTypes.func,
+	  currentDate: _propTypes2.default.instanceOf(Date),
+	  onCurrentDateChange: _propTypes2.default.func,
 
-	  view: _react2.default.PropTypes.oneOf(VIEW_OPTIONS),
-	  initialView: _react2.default.PropTypes.oneOf(VIEW_OPTIONS),
+	  view: _propTypes2.default.oneOf(VIEW_OPTIONS),
+	  initialView: _propTypes2.default.oneOf(VIEW_OPTIONS),
 
 	  finalView: function finalView(props, propName, componentName) {
 	    for (var _len = arguments.length, args = Array(_len > 3 ? _len - 3 : 0), _key = 3; _key < _len; _key++) {
 	      args[_key - 3] = arguments[_key];
 	    }
 
-	    var err = _react2.default.PropTypes.oneOf(VIEW_OPTIONS).apply(undefined, [props, propName, componentName].concat(args));
+	    var err = _propTypes2.default.oneOf(VIEW_OPTIONS).apply(undefined, [props, propName, componentName].concat(args));
 
 	    if (err) return err;
 	    if (VIEW_OPTIONS.indexOf(props[propName]) < VIEW_OPTIONS.indexOf(props.initialView)) return new Error(('The `' + propName + '` prop: `' + props[propName] + '` cannot be \'lower\' than the `initialView`\n        prop. This creates a range that cannot be rendered.').replace(/\n\t/g, ''));
 	  },
 
 
-	  onViewChange: _react2.default.PropTypes.func,
-	  onNavigate: _react2.default.PropTypes.func,
-	  culture: _react2.default.PropTypes.string,
-	  footer: _react2.default.PropTypes.bool,
+	  onViewChange: _propTypes2.default.func,
+	  onNavigate: _propTypes2.default.func,
+	  culture: _propTypes2.default.string,
+	  footer: _propTypes2.default.bool,
 
-	  dayComponent: _propTypes2.default.elementType,
-	  headerFormat: _propTypes2.default.dateFormat,
-	  footerFormat: _propTypes2.default.dateFormat,
+	  dayComponent: _propTypes4.default.elementType,
+	  headerFormat: _propTypes4.default.dateFormat,
+	  footerFormat: _propTypes4.default.dateFormat,
 
-	  dayFormat: _propTypes2.default.dateFormat,
-	  dateFormat: _propTypes2.default.dateFormat,
-	  monthFormat: _propTypes2.default.dateFormat,
-	  yearFormat: _propTypes2.default.dateFormat,
-	  decadeFormat: _propTypes2.default.dateFormat,
-	  centuryFormat: _propTypes2.default.dateFormat,
+	  dayFormat: _propTypes4.default.dateFormat,
+	  dateFormat: _propTypes4.default.dateFormat,
+	  monthFormat: _propTypes4.default.dateFormat,
+	  yearFormat: _propTypes4.default.dateFormat,
+	  decadeFormat: _propTypes4.default.dateFormat,
+	  centuryFormat: _propTypes4.default.dateFormat,
 
-	  messages: _react2.default.PropTypes.shape({
-	    moveBack: _react2.default.PropTypes.string,
-	    moveForward: _react2.default.PropTypes.string
+	  messages: _propTypes2.default.shape({
+	    moveBack: _propTypes2.default.string,
+	    moveForward: _propTypes2.default.string
 	  })
 	};
 
@@ -6466,6 +6498,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -6479,19 +6515,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = _react2.default.createClass({
 	  displayName: 'Header',
 	  propTypes: {
-	    label: _react2.default.PropTypes.string.isRequired,
-	    labelId: _react2.default.PropTypes.string,
+	    label: _propTypes2.default.string.isRequired,
+	    labelId: _propTypes2.default.string,
 
-	    upDisabled: _react2.default.PropTypes.bool.isRequired,
-	    prevDisabled: _react2.default.PropTypes.bool.isRequired,
-	    nextDisabled: _react2.default.PropTypes.bool.isRequired,
-	    onViewChange: _react2.default.PropTypes.func.isRequired,
-	    onMoveLeft: _react2.default.PropTypes.func.isRequired,
-	    onMoveRight: _react2.default.PropTypes.func.isRequired,
+	    upDisabled: _propTypes2.default.bool.isRequired,
+	    prevDisabled: _propTypes2.default.bool.isRequired,
+	    nextDisabled: _propTypes2.default.bool.isRequired,
+	    onViewChange: _propTypes2.default.func.isRequired,
+	    onMoveLeft: _propTypes2.default.func.isRequired,
+	    onMoveRight: _propTypes2.default.func.isRequired,
 
-	    messages: _react2.default.PropTypes.shape({
-	      moveBack: _react2.default.PropTypes.string,
-	      moveForward: _react2.default.PropTypes.string
+	    messages: _propTypes2.default.shape({
+	      moveBack: _propTypes2.default.string,
+	      moveForward: _propTypes2.default.string
 	    })
 	  },
 
@@ -6640,6 +6676,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -6654,9 +6694,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _localizers = __webpack_require__(17);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _2 = __webpack_require__(19);
 
@@ -6678,17 +6718,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	var propTypes = {
-	  culture: _react2.default.PropTypes.string,
-	  today: _react2.default.PropTypes.instanceOf(Date),
-	  value: _react2.default.PropTypes.instanceOf(Date),
-	  focused: _react2.default.PropTypes.instanceOf(Date),
-	  min: _react2.default.PropTypes.instanceOf(Date),
-	  max: _react2.default.PropTypes.instanceOf(Date),
-	  onChange: _react2.default.PropTypes.func.isRequired,
+	  culture: _propTypes2.default.string,
+	  today: _propTypes2.default.instanceOf(Date),
+	  value: _propTypes2.default.instanceOf(Date),
+	  focused: _propTypes2.default.instanceOf(Date),
+	  min: _propTypes2.default.instanceOf(Date),
+	  max: _propTypes2.default.instanceOf(Date),
+	  onChange: _propTypes2.default.func.isRequired,
 
-	  dayComponent: _propTypes2.default.elementType,
-	  dayFormat: _propTypes2.default.dateFormat,
-	  dateFormat: _propTypes2.default.dateFormat
+	  dayComponent: _propTypes4.default.elementType,
+	  dayFormat: _propTypes4.default.dateFormat,
+	  dateFormat: _propTypes4.default.dateFormat
 	};
 
 	var isEqual = function isEqual(dateA, dateB) {
@@ -7349,6 +7389,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -7367,9 +7411,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _3 = _interopRequireDefault(_2);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _widgetHelpers = __webpack_require__(48);
 
@@ -7380,15 +7424,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	var propTypes = {
-	  culture: _react2.default.PropTypes.string,
-	  today: _react2.default.PropTypes.instanceOf(Date),
-	  value: _react2.default.PropTypes.instanceOf(Date),
-	  focused: _react2.default.PropTypes.instanceOf(Date),
-	  min: _react2.default.PropTypes.instanceOf(Date),
-	  max: _react2.default.PropTypes.instanceOf(Date),
-	  onChange: _react2.default.PropTypes.func.isRequired,
+	  culture: _propTypes2.default.string,
+	  today: _propTypes2.default.instanceOf(Date),
+	  value: _propTypes2.default.instanceOf(Date),
+	  focused: _propTypes2.default.instanceOf(Date),
+	  min: _propTypes2.default.instanceOf(Date),
+	  max: _propTypes2.default.instanceOf(Date),
+	  onChange: _propTypes2.default.func.isRequired,
 
-	  monthFormat: _propTypes2.default.dateFormat
+	  monthFormat: _propTypes4.default.dateFormat
 	};
 
 	var optionId = function optionId(id, date) {
@@ -7479,6 +7523,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -7497,24 +7545,24 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _3 = _interopRequireDefault(_2);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _widgetHelpers = __webpack_require__(48);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var propTypes = {
-	  culture: _react2.default.PropTypes.string,
-	  today: _react2.default.PropTypes.instanceOf(Date),
-	  value: _react2.default.PropTypes.instanceOf(Date),
-	  focused: _react2.default.PropTypes.instanceOf(Date),
-	  min: _react2.default.PropTypes.instanceOf(Date),
-	  max: _react2.default.PropTypes.instanceOf(Date),
-	  onChange: _react2.default.PropTypes.func.isRequired,
+	  culture: _propTypes2.default.string,
+	  today: _propTypes2.default.instanceOf(Date),
+	  value: _propTypes2.default.instanceOf(Date),
+	  focused: _propTypes2.default.instanceOf(Date),
+	  min: _propTypes2.default.instanceOf(Date),
+	  max: _propTypes2.default.instanceOf(Date),
+	  onChange: _propTypes2.default.func.isRequired,
 
-	  yearFormat: _propTypes2.default.dateFormat
+	  yearFormat: _propTypes4.default.dateFormat
 	};
 
 	var optionId = function optionId(id, date) {
@@ -7610,6 +7658,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -7628,9 +7680,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _3 = _interopRequireDefault(_2);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _widgetHelpers = __webpack_require__(48);
 
@@ -7645,14 +7697,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	var propTypes = {
-	  culture: _react2.default.PropTypes.string,
-	  today: _react2.default.PropTypes.instanceOf(Date),
-	  value: _react2.default.PropTypes.instanceOf(Date),
-	  focused: _react2.default.PropTypes.instanceOf(Date),
-	  min: _react2.default.PropTypes.instanceOf(Date),
-	  max: _react2.default.PropTypes.instanceOf(Date),
-	  onChange: _react2.default.PropTypes.func.isRequired,
-	  decadeFormat: _propTypes2.default.dateFormat
+	  culture: _propTypes2.default.string,
+	  today: _propTypes2.default.instanceOf(Date),
+	  value: _propTypes2.default.instanceOf(Date),
+	  focused: _propTypes2.default.instanceOf(Date),
+	  min: _propTypes2.default.instanceOf(Date),
+	  max: _propTypes2.default.instanceOf(Date),
+	  onChange: _propTypes2.default.func.isRequired,
+	  decadeFormat: _propTypes4.default.dateFormat
 	};
 
 	exports.default = _react2.default.createClass({
@@ -7745,6 +7797,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -7780,8 +7836,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	  propTypes: {
-	    direction: _react2.default.PropTypes.oneOf(['left', 'right']),
-	    duration: _react2.default.PropTypes.number
+	    direction: _propTypes2.default.oneOf(['left', 'right']),
+	    duration: _propTypes2.default.number
 	  },
 
 	  componentWillEnter: function componentWillEnter(done) {
@@ -7841,8 +7897,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	  propTypes: {
-	    direction: _react2.default.PropTypes.oneOf(['left', 'right']),
-	    duration: _react2.default.PropTypes.number
+	    direction: _propTypes2.default.oneOf(['left', 'right']),
+	    duration: _propTypes2.default.number
 	  },
 
 	  getDefaultProps: function getDefaultProps() {
@@ -7892,6 +7948,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -7918,15 +7978,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * A streamlined version of TransitionGroup built for managing at most two active children
-	 * also provides additional hooks for animation start/end
-	 * https://github.com/facebook/react/blob/master/src/addons/transitions/ReactTransitionGroup.js
-	 * relevent code is licensed accordingly
-	 */
 	function getChild(children) {
 	  return _react2.default.Children.only(children);
-	}
+	} /**
+	   * A streamlined version of TransitionGroup built for managing at most two active children
+	   * also provides additional hooks for animation start/end
+	   * https://github.com/facebook/react/blob/master/src/addons/transitions/ReactTransitionGroup.js
+	   * relevent code is licensed accordingly
+	   */
+
 
 	function key(child) {
 	  return child && child.key;
@@ -7937,10 +7997,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  displayName: 'ReplaceTransitionGroup',
 
 	  propTypes: {
-	    component: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.element, _react2.default.PropTypes.string]),
-	    childFactory: _react2.default.PropTypes.func,
-	    onAnimating: _react2.default.PropTypes.func,
-	    onAnimate: _react2.default.PropTypes.func
+	    component: _propTypes2.default.oneOfType([_propTypes2.default.element, _propTypes2.default.string]),
+	    childFactory: _propTypes2.default.func,
+	    onAnimating: _propTypes2.default.func,
+	    onAnimate: _propTypes2.default.func
 	  },
 
 	  getDefaultProps: function getDefaultProps() {
@@ -8114,6 +8174,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; //pick, omit, has
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -8170,9 +8234,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Button2 = _interopRequireDefault(_Button);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _uncontrollable = __webpack_require__(55);
 
@@ -8222,51 +8286,51 @@ return /******/ (function(modules) { // webpackBootstrap
 	var propTypes = _extends({}, Calendar.propTypes, {
 
 	  //-- controlled props -----------
-	  value: _react2.default.PropTypes.instanceOf(Date),
-	  onChange: _react2.default.PropTypes.func,
-	  open: _react2.default.PropTypes.oneOf([false, _constants.datePopups.TIME, _constants.datePopups.CALENDAR]),
-	  onToggle: _react2.default.PropTypes.func,
-	  currentDate: _react2.default.PropTypes.instanceOf(Date),
-	  onCurrentDateChange: _react2.default.PropTypes.func,
+	  value: _propTypes2.default.instanceOf(Date),
+	  onChange: _propTypes2.default.func,
+	  open: _propTypes2.default.oneOf([false, _constants.datePopups.TIME, _constants.datePopups.CALENDAR]),
+	  onToggle: _propTypes2.default.func,
+	  currentDate: _propTypes2.default.instanceOf(Date),
+	  onCurrentDateChange: _propTypes2.default.func,
 	  //------------------------------------
 
-	  onSelect: _react2.default.PropTypes.func,
+	  onSelect: _propTypes2.default.func,
 
-	  min: _react2.default.PropTypes.instanceOf(Date),
-	  max: _react2.default.PropTypes.instanceOf(Date),
+	  min: _propTypes2.default.instanceOf(Date),
+	  max: _propTypes2.default.instanceOf(Date),
 
-	  culture: _react2.default.PropTypes.string,
+	  culture: _propTypes2.default.string,
 
-	  format: _propTypes2.default.dateFormat,
-	  timeFormat: _propTypes2.default.dateFormat,
-	  editFormat: _propTypes2.default.dateFormat,
+	  format: _propTypes4.default.dateFormat,
+	  timeFormat: _propTypes4.default.dateFormat,
+	  editFormat: _propTypes4.default.dateFormat,
 
-	  calendar: _react2.default.PropTypes.bool,
-	  time: _react2.default.PropTypes.bool,
+	  calendar: _propTypes2.default.bool,
+	  time: _propTypes2.default.bool,
 
-	  timeComponent: _propTypes2.default.elementType,
+	  timeComponent: _propTypes4.default.elementType,
 
 	  //popup
-	  dropUp: _react2.default.PropTypes.bool,
-	  duration: _react2.default.PropTypes.number,
+	  dropUp: _propTypes2.default.bool,
+	  duration: _propTypes2.default.number,
 
-	  placeholder: _react2.default.PropTypes.string,
-	  name: _react2.default.PropTypes.string,
+	  placeholder: _propTypes2.default.string,
+	  name: _propTypes2.default.string,
 
-	  initialView: _react2.default.PropTypes.oneOf(viewEnum),
-	  finalView: _react2.default.PropTypes.oneOf(viewEnum),
+	  initialView: _propTypes2.default.oneOf(viewEnum),
+	  finalView: _propTypes2.default.oneOf(viewEnum),
 
-	  autoFocus: _react2.default.PropTypes.bool,
-	  disabled: _propTypes2.default.disabled,
-	  readOnly: _propTypes2.default.readOnly,
+	  autoFocus: _propTypes2.default.bool,
+	  disabled: _propTypes4.default.disabled,
+	  readOnly: _propTypes4.default.readOnly,
 
-	  parse: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.arrayOf(_react2.default.PropTypes.string), _react2.default.PropTypes.string, _react2.default.PropTypes.func]),
+	  parse: _propTypes2.default.oneOfType([_propTypes2.default.arrayOf(_propTypes2.default.string), _propTypes2.default.string, _propTypes2.default.func]),
 
-	  'aria-labelledby': _react2.default.PropTypes.string,
+	  'aria-labelledby': _propTypes2.default.string,
 
-	  messages: _react2.default.PropTypes.shape({
-	    calendarButton: _react2.default.PropTypes.string,
-	    timeButton: _react2.default.PropTypes.string
+	  messages: _propTypes2.default.shape({
+	    calendarButton: _propTypes2.default.string,
+	    timeButton: _propTypes2.default.string
 	  })
 	});
 
@@ -8680,6 +8744,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -8694,9 +8762,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _localizers = __webpack_require__(17);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _2 = __webpack_require__(19);
 
@@ -8713,18 +8781,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	  displayName: 'TimeList',
 
 	  propTypes: {
-	    value: _react2.default.PropTypes.instanceOf(Date),
-	    step: _react2.default.PropTypes.number,
-	    min: _react2.default.PropTypes.instanceOf(Date),
-	    max: _react2.default.PropTypes.instanceOf(Date),
-	    currentDate: _react2.default.PropTypes.instanceOf(Date),
+	    value: _propTypes2.default.instanceOf(Date),
+	    step: _propTypes2.default.number,
+	    min: _propTypes2.default.instanceOf(Date),
+	    max: _propTypes2.default.instanceOf(Date),
+	    currentDate: _propTypes2.default.instanceOf(Date),
 
-	    itemComponent: _propTypes2.default.elementType,
-	    format: _propTypes2.default.dateFormat,
-	    onSelect: _react2.default.PropTypes.func,
-	    preserveDate: _react2.default.PropTypes.bool,
-	    culture: _react2.default.PropTypes.string,
-	    delay: _react2.default.PropTypes.number
+	    itemComponent: _propTypes4.default.elementType,
+	    format: _propTypes4.default.dateFormat,
+	    onSelect: _propTypes2.default.func,
+	    preserveDate: _propTypes2.default.bool,
+	    culture: _propTypes2.default.string,
+	    delay: _propTypes2.default.number
 	  },
 
 	  mixins: [__webpack_require__(58)],
@@ -8906,6 +8974,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -8924,9 +8996,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _localizers = __webpack_require__(17);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8935,14 +9007,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  displayName: 'DateTimePickerInput',
 
 	  propTypes: {
-	    format: _propTypes2.default.dateFormat.isRequired,
-	    editing: _react2.default.PropTypes.bool,
-	    editFormat: _propTypes2.default.dateFormat,
-	    parse: _react2.default.PropTypes.func.isRequired,
+	    format: _propTypes4.default.dateFormat.isRequired,
+	    editing: _propTypes2.default.bool,
+	    editFormat: _propTypes4.default.dateFormat,
+	    parse: _propTypes2.default.func.isRequired,
 
-	    value: _react2.default.PropTypes.instanceOf(Date),
-	    onChange: _react2.default.PropTypes.func.isRequired,
-	    culture: _react2.default.PropTypes.string
+	    value: _propTypes2.default.instanceOf(Date),
+	    onChange: _propTypes2.default.func.isRequired,
+	    culture: _propTypes2.default.string
 	  },
 
 	  componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
@@ -9043,6 +9115,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _desc, _value, _obj;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -9059,9 +9135,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _compat2 = _interopRequireDefault(_compat);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _uncontrollable = __webpack_require__(55);
 
@@ -9127,34 +9203,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	var propTypes = {
 
 	  // -- controlled props -----------
-	  value: _react2.default.PropTypes.number,
-	  onChange: _react2.default.PropTypes.func,
+	  value: _propTypes2.default.number,
+	  onChange: _propTypes2.default.func,
 	  //------------------------------------
 
-	  min: _react2.default.PropTypes.number,
-	  max: _react2.default.PropTypes.number,
-	  step: _react2.default.PropTypes.number,
+	  min: _propTypes2.default.number,
+	  max: _propTypes2.default.number,
+	  step: _propTypes2.default.number,
 
-	  precision: _react2.default.PropTypes.number,
+	  precision: _propTypes2.default.number,
 
-	  culture: _react2.default.PropTypes.string,
+	  culture: _propTypes2.default.string,
 
-	  format: _propTypes2.default.numberFormat,
+	  format: _propTypes4.default.numberFormat,
 
-	  name: _react2.default.PropTypes.string,
+	  name: _propTypes2.default.string,
 
-	  parse: _react2.default.PropTypes.func,
+	  parse: _propTypes2.default.func,
 
-	  autoFocus: _react2.default.PropTypes.bool,
-	  disabled: _propTypes2.default.disabled,
-	  readOnly: _propTypes2.default.readOnly,
+	  autoFocus: _propTypes2.default.bool,
+	  disabled: _propTypes4.default.disabled,
+	  readOnly: _propTypes4.default.readOnly,
 
-	  messages: _react2.default.PropTypes.shape({
-	    increment: _react2.default.PropTypes.string,
-	    decrement: _react2.default.PropTypes.string
+	  messages: _propTypes2.default.shape({
+	    increment: _propTypes2.default.string,
+	    decrement: _propTypes2.default.string
 	  }),
 
-	  placeholder: _react2.default.PropTypes.string
+	  placeholder: _propTypes2.default.string
 	};
 
 	var NumberPicker = _react2.default.createClass((_obj = {
@@ -9393,6 +9469,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -9401,9 +9481,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _3 = _interopRequireDefault(_2);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _localizers = __webpack_require__(17);
 
@@ -9414,19 +9494,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 	var propTypes = {
-	  value: _react2.default.PropTypes.number,
-	  editing: _react2.default.PropTypes.bool,
-	  placeholder: _react2.default.PropTypes.string,
+	  value: _propTypes2.default.number,
+	  editing: _propTypes2.default.bool,
+	  placeholder: _propTypes2.default.string,
 
-	  format: _propTypes2.default.numberFormat,
+	  format: _propTypes4.default.numberFormat,
 
-	  parse: _react2.default.PropTypes.func,
-	  culture: _react2.default.PropTypes.string,
+	  parse: _propTypes2.default.func,
+	  culture: _propTypes2.default.string,
 
-	  min: _react2.default.PropTypes.number,
+	  min: _propTypes2.default.number,
 
-	  onChange: _react2.default.PropTypes.func.isRequired,
-	  onKeyDown: _react2.default.PropTypes.func
+	  onChange: _propTypes2.default.func.isRequired,
+	  onKeyDown: _propTypes2.default.func
 	};
 
 	exports.default = _react2.default.createClass({
@@ -9574,6 +9654,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -9606,9 +9690,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _MultiselectTagList2 = _interopRequireDefault(_MultiselectTagList);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _List = __webpack_require__(46);
 
@@ -9672,49 +9756,49 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var propTypes = _extends({}, _Popup2.default.propTypes, {
 
-	  data: _react2.default.PropTypes.array,
+	  data: _propTypes2.default.array,
 	  //-- controlled props --
-	  value: _react2.default.PropTypes.array,
-	  onChange: _react2.default.PropTypes.func,
+	  value: _propTypes2.default.array,
+	  onChange: _propTypes2.default.func,
 
-	  searchTerm: _react2.default.PropTypes.string,
-	  onSearch: _react2.default.PropTypes.func,
+	  searchTerm: _propTypes2.default.string,
+	  onSearch: _propTypes2.default.func,
 
-	  open: _react2.default.PropTypes.bool,
-	  onToggle: _react2.default.PropTypes.func,
+	  open: _propTypes2.default.bool,
+	  onToggle: _propTypes2.default.func,
 	  //-------------------------------------------
 
-	  valueField: _react2.default.PropTypes.string,
-	  textField: _propTypes2.default.accessor,
+	  valueField: _propTypes2.default.string,
+	  textField: _propTypes4.default.accessor,
 
-	  tagComponent: _propTypes2.default.elementType,
-	  itemComponent: _propTypes2.default.elementType,
-	  listComponent: _propTypes2.default.elementType,
+	  tagComponent: _propTypes4.default.elementType,
+	  itemComponent: _propTypes4.default.elementType,
+	  listComponent: _propTypes4.default.elementType,
 
-	  groupComponent: _propTypes2.default.elementType,
-	  groupBy: _propTypes2.default.accessor,
+	  groupComponent: _propTypes4.default.elementType,
+	  groupBy: _propTypes4.default.accessor,
 
-	  createComponent: _propTypes2.default.elementType,
+	  createComponent: _propTypes4.default.elementType,
 
-	  onSelect: _react2.default.PropTypes.func,
-	  onCreate: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.oneOf([false]), _react2.default.PropTypes.func]),
+	  onSelect: _propTypes2.default.func,
+	  onCreate: _propTypes2.default.oneOfType([_propTypes2.default.oneOf([false]), _propTypes2.default.func]),
 
-	  inputSize: _react2.default.PropTypes.func,
+	  inputSize: _propTypes2.default.func,
 
-	  busy: _react2.default.PropTypes.bool,
-	  dropUp: _react2.default.PropTypes.bool,
+	  busy: _propTypes2.default.bool,
+	  dropUp: _propTypes2.default.bool,
 
-	  placeholder: _react2.default.PropTypes.string,
+	  placeholder: _propTypes2.default.string,
 
-	  autoFocus: _react2.default.PropTypes.bool,
-	  disabled: _propTypes2.default.disabled.acceptsArray,
-	  readOnly: _propTypes2.default.readOnly.acceptsArray,
+	  autoFocus: _propTypes2.default.bool,
+	  disabled: _propTypes4.default.disabled.acceptsArray,
+	  readOnly: _propTypes4.default.readOnly.acceptsArray,
 
-	  messages: _react2.default.PropTypes.shape({
-	    open: _propTypes2.default.message,
-	    emptyList: _propTypes2.default.message,
-	    emptyFilter: _propTypes2.default.message,
-	    createNew: _propTypes2.default.message
+	  messages: _propTypes2.default.shape({
+	    open: _propTypes4.default.message,
+	    emptyList: _propTypes4.default.message,
+	    emptyFilter: _propTypes4.default.message,
+	    createNew: _propTypes4.default.message
 	  })
 	});
 
@@ -10200,6 +10284,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _class, _temp;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -10212,9 +10300,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _compat2 = _interopRequireDefault(_compat);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10268,14 +10356,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return MultiselectInput;
 	}(_react2.default.Component), _class.propTypes = {
-	  value: _react2.default.PropTypes.string,
-	  placeholder: _react2.default.PropTypes.string,
-	  maxLength: _react2.default.PropTypes.number,
-	  inputSize: _react2.default.PropTypes.func,
-	  onChange: _react2.default.PropTypes.func.isRequired,
+	  value: _propTypes2.default.string,
+	  placeholder: _propTypes2.default.string,
+	  maxLength: _propTypes2.default.number,
+	  inputSize: _propTypes2.default.func,
+	  onChange: _propTypes2.default.func.isRequired,
 
-	  disabled: _propTypes2.default.disabled,
-	  readOnly: _propTypes2.default.readOnly
+	  disabled: _propTypes4.default.disabled,
+	  readOnly: _propTypes4.default.readOnly
 	}, _temp);
 	exports.default = MultiselectInput;
 	module.exports = exports['default'];
@@ -10290,6 +10378,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -10302,9 +10394,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _widgetHelpers = __webpack_require__(48);
 
@@ -10325,17 +10417,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  mixins: [__webpack_require__(60), __webpack_require__(51)()],
 
 	  propTypes: {
-	    value: _react2.default.PropTypes.array,
-	    focused: _react2.default.PropTypes.number,
+	    value: _propTypes2.default.array,
+	    focused: _propTypes2.default.number,
 
-	    valueField: _react2.default.PropTypes.string,
-	    textField: _propTypes2.default.accessor,
+	    valueField: _propTypes2.default.string,
+	    textField: _propTypes4.default.accessor,
 
-	    onDelete: _react2.default.PropTypes.func.isRequired,
-	    valueComponent: _react2.default.PropTypes.func,
+	    onDelete: _propTypes2.default.func.isRequired,
+	    valueComponent: _propTypes2.default.func,
 
-	    disabled: _propTypes2.default.disabled.acceptsArray,
-	    readOnly: _propTypes2.default.readOnly.acceptsArray
+	    disabled: _propTypes4.default.disabled.acceptsArray,
+	    readOnly: _propTypes4.default.readOnly.acceptsArray
 	  },
 
 	  getDefaultProps: function getDefaultProps() {
@@ -10480,6 +10572,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _desc, _value, _obj;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -10500,9 +10596,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _compat2 = _interopRequireDefault(_compat);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _List = __webpack_require__(46);
 
@@ -10570,29 +10666,29 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var propTypes = {
 
-	  data: _react2.default.PropTypes.array,
-	  value: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.any, _react2.default.PropTypes.array]),
-	  onChange: _react2.default.PropTypes.func,
-	  onMove: _react2.default.PropTypes.func,
+	  data: _propTypes2.default.array,
+	  value: _propTypes2.default.oneOfType([_propTypes2.default.any, _propTypes2.default.array]),
+	  onChange: _propTypes2.default.func,
+	  onMove: _propTypes2.default.func,
 
-	  multiple: _react2.default.PropTypes.bool,
+	  multiple: _propTypes2.default.bool,
 
-	  itemComponent: _propTypes2.default.elementType,
-	  listComponent: _propTypes2.default.elementType,
+	  itemComponent: _propTypes4.default.elementType,
+	  listComponent: _propTypes4.default.elementType,
 
-	  valueField: _react2.default.PropTypes.string,
-	  textField: _propTypes2.default.accessor,
+	  valueField: _propTypes2.default.string,
+	  textField: _propTypes4.default.accessor,
 
-	  busy: _react2.default.PropTypes.bool,
+	  busy: _propTypes2.default.bool,
 
-	  filter: _react2.default.PropTypes.string,
-	  delay: _react2.default.PropTypes.number,
+	  filter: _propTypes2.default.string,
+	  delay: _propTypes2.default.number,
 
-	  disabled: _propTypes2.default.disabled.acceptsArray,
-	  readOnly: _propTypes2.default.readOnly.acceptsArray,
+	  disabled: _propTypes4.default.disabled.acceptsArray,
+	  readOnly: _propTypes4.default.readOnly.acceptsArray,
 
-	  messages: _react2.default.PropTypes.shape({
-	    emptyList: _react2.default.PropTypes.string
+	  messages: _propTypes2.default.shape({
+	    emptyList: _propTypes2.default.string
 	  })
 	};
 
