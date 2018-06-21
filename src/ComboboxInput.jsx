@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import _  from './util/_';
 import caretPos from './util/caret';
@@ -10,9 +11,9 @@ export default React.createClass({
   displayName: 'ComboboxInput',
 
   propTypes: {
-    value: React.PropTypes.string,
-    suggest: React.PropTypes.bool,
-    onChange: React.PropTypes.func.isRequired
+    value: PropTypes.string,
+    suggest: PropTypes.bool,
+    onChange: PropTypes.func.isRequired
   },
 
   componentDidUpdate() {

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import _  from './util/_';
 import cn from 'classnames';
@@ -23,32 +24,32 @@ let { find } = _;
 
 let propTypes = {
 
-    data:           React.PropTypes.array,
-    value:          React.PropTypes.oneOfType([
-                      React.PropTypes.any,
-                      React.PropTypes.array
+    data:           PropTypes.array,
+    value:          PropTypes.oneOfType([
+                      PropTypes.any,
+                      PropTypes.array
                     ]),
-    onChange:       React.PropTypes.func,
-    onMove:         React.PropTypes.func,
+    onChange:       PropTypes.func,
+    onMove:         PropTypes.func,
 
-    multiple:       React.PropTypes.bool,
+    multiple:       PropTypes.bool,
 
     itemComponent:  CustomPropTypes.elementType,
     listComponent:  CustomPropTypes.elementType,
 
-    valueField:     React.PropTypes.string,
+    valueField:     PropTypes.string,
     textField:      CustomPropTypes.accessor,
 
-    busy:           React.PropTypes.bool,
+    busy:           PropTypes.bool,
 
-    filter:         React.PropTypes.string,
-    delay:          React.PropTypes.number,
+    filter:         PropTypes.string,
+    delay:          PropTypes.number,
 
     disabled:       CustomPropTypes.disabled.acceptsArray,
     readOnly:       CustomPropTypes.readOnly.acceptsArray,
 
-    messages:       React.PropTypes.shape({
-      emptyList:    React.PropTypes.string
+    messages:       PropTypes.shape({
+      emptyList:    PropTypes.string
     })
   }
 

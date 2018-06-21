@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import _  from './util/_';
@@ -13,13 +14,13 @@ export default React.createClass({
 
   propTypes: {
     format: CustomPropTypes.dateFormat.isRequired,
-    editing: React.PropTypes.bool,
+    editing: PropTypes.bool,
     editFormat: CustomPropTypes.dateFormat,
-    parse: React.PropTypes.func.isRequired,
+    parse: PropTypes.func.isRequired,
 
-    value: React.PropTypes.instanceOf(Date),
-    onChange: React.PropTypes.func.isRequired,
-    culture: React.PropTypes.string
+    value: PropTypes.instanceOf(Date),
+    onChange: PropTypes.func.isRequired,
+    culture: PropTypes.string
   },
 
   componentWillReceiveProps(nextProps) {

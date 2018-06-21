@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React  from 'react';
 import ReplaceTransitionGroup  from './ReplaceTransitionGroup';
 import compat from './util/compat';
@@ -9,8 +10,8 @@ import _ from './util/_';
 var SlideChildGroup = React.createClass({
 
   propTypes: {
-    direction: React.PropTypes.oneOf(['left', 'right']),
-    duration:  React.PropTypes.number
+    direction: PropTypes.oneOf(['left', 'right']),
+    duration:  PropTypes.number
   },
 
   componentWillEnter(done) {
@@ -67,8 +68,8 @@ var SlideChildGroup = React.createClass({
 module.exports = React.createClass({
 
   propTypes: {
-    direction: React.PropTypes.oneOf(['left', 'right']),
-    duration:  React.PropTypes.number
+    direction: PropTypes.oneOf(['left', 'right']),
+    duration:  PropTypes.number
   },
 
   getDefaultProps(){

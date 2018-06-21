@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import CalendarView from './CalendarView';
@@ -8,13 +9,13 @@ import CustomPropTypes from './util/propTypes';
 import { instanceId } from './util/widgetHelpers';
 
 let propTypes = {
-  culture:      React.PropTypes.string,
-  today:        React.PropTypes.instanceOf(Date),
-  value:        React.PropTypes.instanceOf(Date),
-  focused:      React.PropTypes.instanceOf(Date),
-  min:          React.PropTypes.instanceOf(Date),
-  max:          React.PropTypes.instanceOf(Date),
-  onChange:     React.PropTypes.func.isRequired,
+  culture:      PropTypes.string,
+  today:        PropTypes.instanceOf(Date),
+  value:        PropTypes.instanceOf(Date),
+  focused:      PropTypes.instanceOf(Date),
+  min:          PropTypes.instanceOf(Date),
+  max:          PropTypes.instanceOf(Date),
+  onChange:     PropTypes.func.isRequired,
 
   yearFormat:   CustomPropTypes.dateFormat
 };

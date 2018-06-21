@@ -4,6 +4,8 @@
  * https://github.com/facebook/react/blob/master/src/addons/transitions/ReactTransitionGroup.js
  * relevent code is licensed accordingly
  */
+import PropTypes from 'prop-types';
+
 import React from 'react';
 import css from 'dom-helpers/style';
 import height from 'dom-helpers/query/height';
@@ -24,13 +26,13 @@ export default React.createClass({
   displayName: 'ReplaceTransitionGroup',
 
   propTypes: {
-    component: React.PropTypes.oneOfType([
-      React.PropTypes.element,
-      React.PropTypes.string
+    component: PropTypes.oneOfType([
+      PropTypes.element,
+      PropTypes.string
     ]),
-    childFactory: React.PropTypes.func,
-    onAnimating: React.PropTypes.func,
-    onAnimate: React.PropTypes.func
+    childFactory: PropTypes.func,
+    onAnimating: PropTypes.func,
+    onAnimate: PropTypes.func
   },
 
   getDefaultProps() {
