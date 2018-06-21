@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -24,7 +25,7 @@ let propTypes = {
 
 let optionId = (id, date) => `${id}__year_${dates.year(date)}-${dates.month(date)}`;
 
-let YearView = React.createClass({
+let YearView = createReactClass({
 
   displayName: 'YearView',
 

@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React  from 'react';
 import ReplaceTransitionGroup  from './ReplaceTransitionGroup';
@@ -7,7 +8,7 @@ import getWidth from 'dom-helpers/query/width';
 import config from './util/configuration';
 import _ from './util/_';
 
-var SlideChildGroup = React.createClass({
+var SlideChildGroup = createReactClass({
 
   propTypes: {
     direction: PropTypes.oneOf(['left', 'right']),
@@ -65,7 +66,7 @@ var SlideChildGroup = React.createClass({
 })
 
 
-module.exports = React.createClass({
+module.exports = createReactClass({
 
   propTypes: {
     direction: PropTypes.oneOf(['left', 'right']),

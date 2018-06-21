@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React  from 'react';
 import invariant from 'invariant';
@@ -85,7 +86,7 @@ let propTypes = {
   }
 
 
-var DateTimePicker = React.createClass({
+var DateTimePicker = createReactClass({
 
   displayName: 'DateTimePicker',
 

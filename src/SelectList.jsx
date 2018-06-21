@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 import _  from './util/_';
@@ -64,7 +65,7 @@ function getFirstValue(props) {
   return null
 }
 
-var SelectList = React.createClass({
+var SelectList = createReactClass({
 
   propTypes: propTypes,
 
@@ -344,7 +345,7 @@ var SelectList = React.createClass({
 
 function getListItem(parent){
 
-  return React.createClass({
+  return createReactClass({
 
     displayName: 'SelectItem',
 

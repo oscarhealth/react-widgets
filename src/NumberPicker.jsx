@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 import cx    from 'classnames';
@@ -50,7 +51,7 @@ let propTypes = {
       placeholder: PropTypes.string
     };
 
-let NumberPicker = React.createClass({
+let NumberPicker = createReactClass({
 
   displayName: 'NumberPicker',
 

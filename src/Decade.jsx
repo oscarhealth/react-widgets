@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -22,7 +23,7 @@ let propTypes = {
 
 let optionId = (id, date) => `${id}__decade_${dates.year(date)}`;
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'DecadeView',
 

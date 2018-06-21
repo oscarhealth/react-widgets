@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 import cn from 'classnames';
@@ -75,7 +76,7 @@ var propTypes = {
   })
 };
 
-var Multiselect = React.createClass({
+var Multiselect = createReactClass({
 
   displayName: 'Multiselect',
 

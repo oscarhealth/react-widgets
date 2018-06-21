@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 import _  from './util/_';
@@ -22,7 +23,7 @@ let propTypes = {
   onKeyDown:   PropTypes.func
 };
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'NumberPickerInput',
 

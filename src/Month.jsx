@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 import CalendarView from './CalendarView';
@@ -28,7 +29,7 @@ let propTypes = {
 
 let isEqual = (dateA, dateB) => dates.eq(dateA, dateB, 'day')
 
-let MonthView = React.createClass({
+let MonthView = createReactClass({
 
   displayName: 'MonthView',
 

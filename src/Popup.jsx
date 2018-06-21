@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React, { cloneElement } from 'react';
 import _ from './util/_';
@@ -41,7 +42,7 @@ let propTypes = {
   onOpen:         PropTypes.func
 }
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'Popup',
 

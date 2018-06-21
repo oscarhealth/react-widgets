@@ -9,7 +9,7 @@ import _ from './util/_';
 
 var format = props => dateLocalizer.getFormat('time', props.format)
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'TimeList',
 

@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -8,7 +9,7 @@ import compat from './util/compat';
 import { date as dateLocalizer } from './util/localizers';
 import CustomPropTypes from './util/propTypes';
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'DateTimePickerInput',
 

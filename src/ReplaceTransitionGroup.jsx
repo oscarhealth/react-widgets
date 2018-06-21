@@ -4,6 +4,7 @@
  * https://github.com/facebook/react/blob/master/src/addons/transitions/ReactTransitionGroup.js
  * relevent code is licensed accordingly
  */
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 
 import React from 'react';
@@ -21,7 +22,7 @@ function key(child){
   return child && child.key
 }
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'ReplaceTransitionGroup',
 

@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React from 'react';
 import activeElement from 'dom-helpers/activeElement';
@@ -63,7 +64,7 @@ var propTypes = {
   })
 };
 
-var DropdownList = React.createClass({
+var DropdownList = createReactClass({
 
   displayName: 'DropdownList',
 

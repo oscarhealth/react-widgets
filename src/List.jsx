@@ -1,3 +1,4 @@
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import React   from 'react';
 import ListOption from './ListOption';
@@ -11,7 +12,7 @@ import { isDisabledItem, isReadOnlyItem }  from './util/interaction';
 
 let optionId = (id, idx)=> `${id}__option__${idx}`;
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'List',
 
