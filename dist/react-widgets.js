@@ -2631,6 +2631,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _class, _temp;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -2682,14 +2686,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return Widget;
 	}(_react2.default.Component), _class.propTypes = {
-	  tabIndex: _react.PropTypes.node,
-	  focused: _react.PropTypes.bool,
-	  disabled: _react.PropTypes.bool,
-	  readOnly: _react.PropTypes.bool,
-	  open: _react.PropTypes.bool,
-	  dropUp: _react.PropTypes.bool
+	  tabIndex: _propTypes2.default.node,
+	  focused: _propTypes2.default.bool,
+	  disabled: _propTypes2.default.bool,
+	  readOnly: _propTypes2.default.bool,
+	  open: _propTypes2.default.bool,
+	  dropUp: _propTypes2.default.bool
 	}, _class.contextTypes = {
-	  isRtl: _react.PropTypes.bool
+	  isRtl: _propTypes2.default.bool
 	}, _temp);
 	exports.default = Widget;
 	module.exports = exports['default'];
@@ -2907,13 +2911,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _class, _temp;
 
+	var _propTypes = __webpack_require__(20);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _react = __webpack_require__(26);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _propTypes = __webpack_require__(37);
+	var _propTypes3 = __webpack_require__(37);
 
-	var _propTypes2 = _interopRequireDefault(_propTypes);
+	var _propTypes4 = _interopRequireDefault(_propTypes3);
 
 	var _dataHelpers = __webpack_require__(39);
 
@@ -2955,10 +2963,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return DropdownListInput;
 	}(_react2.default.Component), _class.propTypes = {
-	  value: _react.PropTypes.any,
-	  placeholder: _react.PropTypes.string,
-	  textField: _propTypes2.default.accessor,
-	  valueComponent: _propTypes2.default.elementType
+	  value: _propTypes2.default.any,
+	  placeholder: _propTypes2.default.string,
+	  textField: _propTypes4.default.accessor,
+	  valueComponent: _propTypes4.default.elementType
 	}, _temp);
 	exports.default = DropdownListInput;
 	module.exports = exports['default'];
